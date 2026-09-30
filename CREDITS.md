@@ -18,5 +18,6 @@ Ce dépôt est un fork, hébergé sur GitHub Pages pour le hub Joxia Games
 - ce fichier `CREDITS.md` et un bandeau de crédits en tête du README ;
 - le script de suivi du temps de jeu du hub (`tracker.js`) avant `</body>`, si présent.
 - `touch.js` du hub dans le `<head>` de `index.html` : bouton « Quitter » vers le hub, commandes tactiles (manette virtuelle qui simule le clavier, glisser au doigt) et adaptation à l'écran mobile ;
+- traduction française des textes du jeu : données `json/*.json`, pages d'explication `html/*.html` et interface ;
 
 L'historique Git complet (commits des auteurs d'origine) est conservé.

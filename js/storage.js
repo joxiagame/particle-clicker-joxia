@@ -19,8 +19,8 @@ var ObjectStorage = (function() {
       clear : function() { _s.clear(); }
     };
   } catch (e) {
-    alert('There is no local storage for you.' +
-          ' If you refresh the page, all progress will be lost');
+    alert('Le stockage local n\'est pas disponible.' +
+          ' Si tu recharges la page, toute ta progression sera perdue.');
     return {
       save : function(key, item) {},
       load : function(key) { return null; },

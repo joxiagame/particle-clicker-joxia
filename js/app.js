@@ -146,7 +146,7 @@
     };
     $scope.restart = function() {
       if (window.confirm(
-        'Do you really want to restart the game? All progress will be lost.'
+        'Veux-tu vraiment recommencer ? Toute ta progression sera perdue.'
       )) {
         ObjectStorage.clear();
         window.location.reload(true);
