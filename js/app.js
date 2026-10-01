@@ -6,6 +6,10 @@
   game.load();
 
   var lab = game.lab;
+  // Joxia : réputation du labo envoyée au classement du hub (toutes les 10 s si elle progresse)
+  setInterval(function() {
+    if (window.joxiaScore) window.joxiaScore(Math.floor(lab.state.reputation));
+  }, 10000);
   var research = game.research;
   var workers = game.workers;
   var upgrades = game.upgrades;
